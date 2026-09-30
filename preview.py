@@ -6,6 +6,10 @@ import argparse
 
 ROOT = Path(__file__).resolve().parent
 PUBLIC = {
+    '/favicon.ico': ('favicon.ico', 'image/x-icon'),
+    '/favicon-16x16.png': ('favicon-16x16.png', 'image/png'),
+    '/favicon-32x32.png': ('favicon-32x32.png', 'image/png'),
+    '/apple-touch-icon.png': ('apple-touch-icon.png', 'image/png'),
     '/assets/portada-marfil.jpg': ('assets/portada-marfil.jpg', 'image/jpeg'),
     '/assets/portada-naranja.jpg': ('assets/portada-naranja.jpg', 'image/jpeg'),
     '/assets/portada-oscura.jpg': ('assets/portada-oscura.jpg', 'image/jpeg'),
