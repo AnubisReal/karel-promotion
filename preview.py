@@ -6,6 +6,9 @@ import argparse
 
 ROOT = Path(__file__).resolve().parent
 PUBLIC = {
+    '/assets/portada-marfil.jpg': ('assets/portada-marfil.jpg', 'image/jpeg'),
+    '/assets/portada-naranja.jpg': ('assets/portada-naranja.jpg', 'image/jpeg'),
+    '/assets/portada-oscura.jpg': ('assets/portada-oscura.jpg', 'image/jpeg'),
     '/': ('index.html', 'text/html; charset=utf-8'),
     '/index.html': ('index.html', 'text/html; charset=utf-8'),
     '/styles.css': ('styles.css', 'text/css; charset=utf-8'),
