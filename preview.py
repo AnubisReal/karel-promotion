@@ -6,6 +6,8 @@ import argparse
 
 ROOT = Path(__file__).resolve().parent
 PUBLIC = {
+    '/assets/perfil-lucia-foto.jpg': ('assets/perfil-lucia-foto.jpg', 'image/jpeg'),
+    '/assets/perfil-daniel-foto.jpg': ('assets/perfil-daniel-foto.jpg', 'image/jpeg'),
     '/favicon.ico': ('favicon.ico', 'image/x-icon'),
     '/favicon-16x16.png': ('favicon-16x16.png', 'image/png'),
     '/favicon-32x32.png': ('favicon-32x32.png', 'image/png'),
